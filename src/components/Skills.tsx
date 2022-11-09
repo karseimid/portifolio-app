@@ -5,8 +5,8 @@ import Event from "../assets/event-icon.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full sm:h-screen bg-[#78a7ad]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div id="skills" className="w-full sm:h-screen bg-[#5A464C]">
+      <div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-2 border-grey-500">
             Skills
@@ -21,7 +21,7 @@ const Skills = () => {
               alt="Developing icon"
             />
             <p className="my-4 font-semibold">Developing</p>
-            <p className="my-4">
+            <p className="my-4 px-5" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -35,7 +35,7 @@ const Skills = () => {
           <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
             <img className="w-10 mx-auto" src={Design} alt="Design icon" />
             <p className="my-4 font-semibold">Design</p>
-            <p className="my-4">
+            <p className="my-4 px-5" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -49,7 +49,7 @@ const Skills = () => {
           <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
             <img className="w-10 mx-auto" src={Event} alt="Event icon" />
             <p className="my-4 font-semibold">Event</p>
-            <p className="my-4">
+            <p className="my-4 px-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
